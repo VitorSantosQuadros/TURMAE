@@ -13,7 +13,7 @@ td, th {
     padding: 8px 15px;
 }
 
-Enviar Fomulário {
+enviar {
     width:40%;
     padding: 15px 0;
     background: orange;
@@ -26,7 +26,7 @@ Enviar Fomulário {
     cursor: pointer;
 }
 
-Enviar Fomulário: hover {
+enviar: hover {
     background: darkorange;
     transform: scale(1.2);
 }
