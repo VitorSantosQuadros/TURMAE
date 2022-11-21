@@ -1,4 +1,34 @@
-  var botaoAdicionar = document.querySelector("#adicionar-cliente")
+  <button id="botao">clique-me</button>
+<script>
+
+    var botao = document.querySelector('#botao');
+
+    function botaoHandler() {
+
+        alert('Botão clicado');
+    }
+
+    botao.addEventListener('click', botaoHandler());
+</script> 
+
+<input class="frase"><button class="botao">Copiar</button><span class="copia"></span>
+  
+  
+  <input class="frase"><button class="botao">Copiar</button><span class="copia"></span>
+<script>
+    var inputFrase = document.querySelector('.frase');
+    var botao = document.querySelector('.botao');
+    var copia = document.querySelector('.copia');
+
+    function botaoHandler() {
+
+        // não sabe o que fazer aqui!
+    }
+
+    botao.addEventListener('click', botaoHandler);
+ </script>
+
+var botaoAdicionar = document.querySelector("#adicionar-cliente")
                 adicionar-cliente.addEvenListener("click",function(event){
                 event.preventDefault();
                     console.log("Oi eu sou o Botão e eu fui clicado")
