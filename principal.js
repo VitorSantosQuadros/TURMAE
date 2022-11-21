@@ -38,7 +38,7 @@ botao.addEventListener("click", function(){
                 
                 nomeTd.textContent = nome 
                 produtoTd.textContent = produto
-                kgTd.textContent = Kg
+                kgTd.textContent = kg
                 valorTd.textContent = valor
                 totalTd.textContent = total
                 
