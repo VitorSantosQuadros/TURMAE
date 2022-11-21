@@ -1,4 +1,4 @@
-  var botao = document.querySelector("#adicionar-cliente")
+  var botaoAdicionar = document.querySelector("#adicionar-cliente")
                 adicionar-cliente.addEvenListener("click",function(event){
                 event.preventDefault();
                     console.log("Oi eu sou o Botão e eu fui clicado")
