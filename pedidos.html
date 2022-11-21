@@ -122,6 +122,13 @@
     border-radius: 10px;" id="adicionar-cliente" class="botao">Adicionar</button>
           
             <script>
+                
+                
+                var form = document.querySelector('.adicionar-tarefa');
+var botao = document.querySelector('#botao-adicionar');
+botao.addEventListener("click", function(){
+    console.log(form.tarefa.value); 
+    
                  console.log("Oi Mundo")
                  console.log (document)
                  console.log (document.querySelector("titulo"))
