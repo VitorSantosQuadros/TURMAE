@@ -1,5 +1,5 @@
   var botao = document.querySelector("botao")
-                botaoAdicionar.addEvenListener("click",function(event){
+                botao.addEvenListener("click",function(event){
                 event.preventDefault();
                     console.log("Oi eu sou o Botão e eu fui clicado")
                 
