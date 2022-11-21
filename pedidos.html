@@ -38,7 +38,7 @@
                   <th>Preço total</th>
                 </tr>
               </thead>
-             <tbody id="tabela-pacientes">
+             <tbody id="tabela-clientes">
                <tr class="Clientes">
                  <td class="info-nome">Paulo</td>
                  <td class="info-produto">Camarão</td>
@@ -77,7 +77,7 @@
           
           <section class="container">
               <h2 style="font-family:'Montserrat', sans-serif;" id="titulo-form">Adicionar novo Cliente</h2>
-              <form>
+              <form id="form-adicionar">
                   <div class="grupo">
                       <label style="
     display: block;
@@ -129,6 +129,38 @@
        function mostraMensagem(){
            console.log("Ola fui clicado!")
        }
+                var form = document.querySelector("#form-adicionar")
+                 console.log(form.nome)
+                 console.log(form.produto)
+                console.log(form.kg)
+                
+                var clienteTr = document.createElement("tr")
+                
+                
+                var nomeTd = document.createElement("td")
+                var produtoTd = document.createElement ("td")
+                var kgTd = document.createElement("td")
+                var valorTd = document.createElement("td")
+                var totalTd = document.createElement("td")
+                
+                
+                nomeTd.textContent = nome 
+                produtoTd.textContent = produto
+                kgTd.textContent = Kg
+                valorTd.textContent = valor
+                totalTd.textContent = total
+                
+                pacienteTr.appendChild(nomeTd)
+                pacienteTr.appendChild(produtoTd)
+                pacienteTr.appendChild(kgTd)
+                pacienteTr.appendChild(valorTd)
+                pacienteTr.appendChild(totalTd)
+                
+                
+                var tabela = document.querySelector("#tabela-clientes")
+                
+                tabela.appendChild(pacienteTr)
+                
              </script>     
          
           <footer style= "text-align: center; ">
