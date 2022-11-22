@@ -26,17 +26,8 @@
     }
 
     botao.addEventListener('click', botaoHandler);
- </script>
+ 
 
-var botao = document.querySelector("#adicionar-cliente")
-                adicionar-cliente.addEvenListener("click",function(event){
-                event.preventDefault();
-                    console.log("Oi eu sou o Botão e eu fui clicado")
-                
-                
-                
-                
-                })
                 
                 
                 var form = document.querySelector('.adicionar-tarefa');
@@ -87,10 +78,10 @@ botaoAdicionar.addEventListener("click", function(event){
                 tabela.appendChild(pacienteTr)
                 
 <head>
-            <script>
+       
                 
                 var botaoAdicionar = document.querySelector("adicionar-cliente")
-                botaoAdicionar.addEvenListener("click",function(event){
+                botaoAdicionar.addEvenListener("click",function(event)){
                 event.preventDefault();
 
                 })
@@ -98,7 +89,7 @@ botaoAdicionar.addEventListener("click", function(event){
                 
                 var form = document.querySelector('.adicionar-tarefa');
 var botao = document.querySelector('#botao-adicionar');
-botao.addEventListener("click", function(){
+botao.addEventListener("click", function()){
     console.log(form.tarefa.value); 
     
                  console.log("Oi Mundo")
@@ -126,12 +117,7 @@ botao.addEventListener("click", function(){
                 var tabela = document.querySelector("#tabela-clientes")
                 
                 tabela.appendChild(pacienteTr)
-    
-                var botao = document.querySelector("#adicionar-cliente")
-                adicionar-cliente.addEvenListener("click",function(event){
-                event.preventDefault();
-                    console.log("Oi eu sou o Botão e eu fui clicado")
-                    
+
                      
                         
                     
