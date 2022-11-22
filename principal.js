@@ -1,5 +1,5 @@
   <button id="botao">clique-me</button>
-<script>
+
 
     var botao = document.querySelector('#botao');
 
@@ -15,7 +15,7 @@
   
   
   <input class="frase"><button class="botao">Copiar</button><span class="copia"></span>
-<script>
+
     var inputFrase = document.querySelector('.frase');
     var botao = document.querySelector('.botao');
     var copia = document.querySelector('.copia');
@@ -35,8 +35,8 @@
 var botaoAdicionar = document.querySelector("#adicionar-cliente");
 botaoAdicionar.addEventListener("click", function(event){
  event.preventDeFault();
-  console.log("Oi eu sou o botão e fui clicado");
-})
+  console.log("Oi eu sou o botão e fui clicado");})
+
     
                  console.log("Oi Mundo")
                  console.log (document)
@@ -79,11 +79,7 @@ botaoAdicionar.addEventListener("click", function(event){
                 
 <head>
        
-                
-                var botaoAdicionar = document.querySelector("adicionar-cliente")
-                botaoAdicionar.addEvenListener("click",function(event){
-                event.preventDefault();     }    )
-                
+            
                 
                 var form = document.querySelector('.adicionar-tarefa');
 var botao = document.querySelector('#botao-adicionar');
@@ -132,7 +128,7 @@ botao.addEventListener("click", function()){
                 pacienteTr.appendChild(totalTd)
                 
                 
-              </script>
+ 
               
                     
                         </head>
