@@ -40,9 +40,12 @@ var botao = document.querySelector("#adicionar-cliente")
                 
                 
                 var form = document.querySelector('.adicionar-tarefa');
-var botao = document.querySelector('#botao-adicionar');
-botao.addEventListener("click", function(){
-    console.log(form.tarefa.value); 
+
+var botaoAdicionar = document.querySelector("#adicionar-cliente");
+botaoAdicionar.addEventListener("click", function(event){
+ event.preventDeFault();
+  console.log("Oi eu sou o botão e fui clicado");
+})
     
                  console.log("Oi Mundo")
                  console.log (document)
@@ -86,10 +89,10 @@ botao.addEventListener("click", function(){
 <head>
             <script>
                 
-                var botao = document.querySelector("adicionar-cliente")
+                var botaoAdicionar = document.querySelector("adicionar-cliente")
                 botaoAdicionar.addEvenListener("click",function(event){
                 event.preventDefault();
-                    console.log("Oi eu sou o Botão e eu fui clicado")
+
                 })
                 
                 
