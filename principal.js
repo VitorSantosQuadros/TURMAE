@@ -9,7 +9,7 @@
     }
 
     botao.addEventListener('click', botaoHandler());
-</script> 
+
 
 <input class="frase"><button class="botao">Copiar</button><span class="copia"></span>
   
