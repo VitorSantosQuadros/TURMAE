@@ -81,10 +81,8 @@ botaoAdicionar.addEventListener("click", function(event){
        
                 
                 var botaoAdicionar = document.querySelector("adicionar-cliente")
-                botaoAdicionar.addEvenListener("click",function(event)){
-                event.preventDefault();
-
-                })
+                botaoAdicionar.addEvenListener("click",function(event){
+                event.preventDefault();     }    )
                 
                 
                 var form = document.querySelector('.adicionar-tarefa');
