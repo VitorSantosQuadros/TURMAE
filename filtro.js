@@ -1,4 +1,4 @@
-var campoFiltro = document.querySelector(#filtrar);
+var campoFiltro = document.querySelector(filtrar);
 
 campoFiltro.addEvenListener("input", function(){
 console.log(this.value);
