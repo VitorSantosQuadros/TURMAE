@@ -37,7 +37,7 @@ td, th {
     padding: 8px 15px;
 }
 
-enviar {
+.enviar {
     width:40%;
     padding: 15px 0;
     background: orange;
@@ -50,7 +50,7 @@ enviar {
     cursor: pointer;
 }
 
-enviar: hover {
+.enviar: hover {
     background: darkorange;
     transform: scale(1.2);
 }
